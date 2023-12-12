@@ -2,6 +2,6 @@ package n3ejercicio1;
 
 public interface Telefono {
 
-	public abstract String llamar();
+	public abstract void llamar();
 	
 }
