@@ -27,15 +27,15 @@ public class SmartPhone implements Telefono {
 		this.modelo = modelo;
 	}
 
-
-	public String llamar() {
+	@Override
+	public void llamar() {
 		
-		return "Estan llamando.";
+		System.out.println ("Estan llamando.");
 	}
 	
-	public String hacerFotos() {
+	public void hacerFotos() {
 		
-		return "Se han hecho fotos.";
+		System.out.println ("Se han hecho fotos.");
 	}
 
 	@Override
